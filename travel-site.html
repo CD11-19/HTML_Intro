@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>My Travel Site</title>
+</head>
+<body>
+    <h1>Welcome to my Travel Site </h1>
+    
+    <p>This site is a place for sharing where I AM traveling to</p>
+    
+    <h2>Here are some places I am visiting:
+    </h2>
+
+    <ol>
+        <li>Ireland</li>
+        <li>England</li>
+        <li>Switzerland</li>
+    </ol>
+    <br>
+    <p>Just some things you can do within these places:</p>
+    <ul>
+        <li>
+            <a href="https://www.visitdublin.com/cliffs-of-moher-finn-mccools-tours" target="_blank"
+            >Cliffs of Moher</a>
+            <br> <!--Add the break. Breaks one line at a time
+                    -->
+            <img src="https://images.unsplash.com/photo-1640748551973-6f33afa6fe51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2669&q=80"
+            width="300px" /> 
+        </li>
+
+        <li>
+            <a href="https://www.tripadvisor.com/Attraction_Review-g186338-d211709-Reviews-Big_Ben-London_England.html"
+            target="_blank">Big Ben</a>
+            <br>
+            <img src="https://images.unsplash.com/photo-1665573456818-67a4c48110c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2186&q=80"
+            width="300px"/>
+
+        </li>
+
+        <li>
+            <a href="https://www.tripadvisor.com/Attractions-g188045-Activities-Switzerland.html" target="_blank"
+            >Switzerland</a>
+            <br>
+            <img src="https://images.unsplash.com/photo-1567017469553-d1b219af5831?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHN3aXR6ZXJsYW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+            width="300px"/>
+        </li>
+    </ul>
+    
+    <table>
+        
+        <tr> <!-- Table Row -->
+            <th>Destination</th>  <!-- Table Header-->
+            <th></th>
+            <th>Capital</th>
+            <th>Offical Language</th>
+
+        </tr>
+
+        <!-- Second Table Row-->
+        <tr>
+            <!-- Table Data -> NOT Headers-->
+            <td>Ireland</td>
+            <td></td>
+            <td>Dublin</td>
+            <td>Mostly English </td>
+        </tr>
+
+        <!-- THIRD Table Row-->
+        <tr>
+            <br>
+            <td>England</td>
+            <td>London</td>
+            <td>English</td>
+        </tr>
+
+        <!-- Fourth Table Row for Switzerland-->
+        <tr>
+            <td>Switzerland</td>
+            <td>Bern</td>
+            <td>Mostly German- Swiss German
+                <br>
+                Followed by French - Romandie
+            </td>
+        </tr>
+    </table>
+
+    <!--
+        Forms
+            *when you want to put different fields of data together in user format
+        <form></form>
+    -->
+    <br>
+    <br>
+    <h2>Contact me about my travels</h2>
+    <form>
+        <label>Email:</label>
+        <input type="text"/>
+        <br>
+        <label>What would you like to talk about?</label>
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+
+        <br>
+        <!-- What if we want ppl to be able to select from pre-existing options?
+        We can use the <SELECT> and <OPTION> tags -->
+            <label>What is your favorite type of destination?</label>
+            <br>
+            <select>
+                <option>CountrySide</option>
+                <option>City</option>
+                <option>Beach</option>
+            </select>
+            <br>
+            <br>
+
+
+        <br>
+        <!-- One way to submit a form is with the input type="SUBMIT"-->
+        <input type="submit" />
+
+        <!-- Another way to submit a form is to use a "button" tag which, 
+        when inside of a form tag, will be treates as a submit button by default-->
+            <button>Submit the form</button>
+
+    </form>
+
+
+
+
+
+    <!--
+        To create a hyperlink (a link to another website/page)
+        <a href ="WEBSITE"></a>
+
+    Images are very useful for making pretty websites. Fortunately, HTML comes with an element
+    specfiically designed for rendering pictuers to your browser 
+    *It is a self-closing tag called <img/> and it irequres the src attribute that will point
+    towards the location of the image you want to render
+    -->
+    <br>
+    <br>
+    <br>
+    <p>Just an added B.O.N.U.S</p>
+    <img src="assets\images/Lights.jpg.zip" width="300px"/>
+    <img alt="The Nothern Lights"/>
+
+    <br>
+    <br>
+
+    <!--
+        Table element is for creating tables of data using HTML.
+        All table-related data must go inside of a <table></table> tag
+
+        <th></th> -> specifies a bold column name inside of table
+            *stands for table header
+    -->
+
+
+</body>
+</html>
